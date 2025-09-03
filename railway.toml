@@ -1,0 +1,9 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "node bot.js"
+
+[[services]]
+serviceName = "whatsapp-extras-bot"
+buildCommand = "npm install"

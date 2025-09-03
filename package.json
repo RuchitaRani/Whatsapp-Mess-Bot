@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-extras-bot-qr",
+  "version": "1.0.0",
+  "description": "WhatsApp Extras Bot with QR Code Phone Linking",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": ["whatsapp", "qr", "bot", "booking", "extras", "hall4"],
+  "author": "WhatsApp Bot Developer",  
+  "license": "MIT",
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
